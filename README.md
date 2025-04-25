@@ -21,6 +21,21 @@ EmoLingo is an NLP-based chatbot that predicts user emotion, tone, and English p
     ├── requirements.txt             # Necessary Packages
     └── README.md
 
+## 📚 Datasets
+
+- **Emotion Classification**  
+  [GoEmotions Dataset (Kaggle)](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-goemotions)  
+  Used for training and evaluating the emotion detection models across 27 fine-grained emotion categories.
+
+- **Writing Tone Classification**  
+  Custom labeled dataset: `writing_tone_dataset.csv` (included in this repository)  
+  Used to train a RoBERTa-based model to classify user input into various writing styles such as Formal, Casual, Empathetic, etc.
+
+- **English Proficiency Classification**  
+  [ICNALE Corpus](https://language.sakura.ne.jp/icnale/)  
+  A comprehensive corpus of non-native English texts used to assess language fluency and proficiency levels across learners from multiple linguistic backgrounds.
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
