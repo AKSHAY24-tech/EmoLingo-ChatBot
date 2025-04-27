@@ -65,7 +65,7 @@ Hugging Face API tokens have been removed from the code for security purposes.
 To use the application, you must insert **your own Hugging Face API token** manually in the code.
 
 1. Go to [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) to generate a new token.
-2. Open the relevant file (e.g., `emotion_classification.py` or `pipeline.py`) and locate the line where the token is used.
+2. Open the relevant file (e.g., `emotion_classification module`) and locate the line where the token is used.
 3. Replace the placeholder or comment with your actual token, like this:
 
 ```python
